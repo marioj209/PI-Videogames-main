@@ -1,0 +1,22 @@
+.img{
+  border-radius: 0.5em;
+  height:220px;
+  width:350px;
+}
+.h3{
+  text-decoration: none!important;
+  color:#5bd504;
+  font-size: 1.5em;
+  margin:5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  
+}
+.h5{
+  text-decoration: none!important;
+  color:#5bd504;
+  margin:20px;
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}

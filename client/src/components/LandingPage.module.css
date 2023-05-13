@@ -1,0 +1,69 @@
+.body{
+    background: #fff url(https://cdn.wallpapersafari.com/74/66/fxNHG5.png) center center/cover no-repeat fixed;
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    font-size: 1.5em;
+    z-index: -40;
+}
+
+.btn{
+  width: 180px;
+  height: 50px;
+  display: block;
+  padding: .375rem .75rem;
+  border: 1px solid #03621b;
+  border-radius: .25rem;
+  color: #00ff41;
+  background-color: #03621b;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing:3px;
+  font-weight:bold;
+  transition: all .5s;
+}
+.btn:hover,.btn:focus{
+  background:#fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #00ff41, 0 0 40px #00ff41, 0 0 80px #00ff41;
+  transition-delay:.1s ;
+}
+
+.h1 {
+  display: inline-flex;
+  position: relative;
+  padding:0 20px;
+  font-size: 2.5em;
+  color:#fff;
+  text-shadow: 0 0 20px #00ff41;
+  letter-spacing: 3px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.h1:after{
+  position: absolute;
+  top:0;
+  left: 0;
+  content: attr(data-text);
+  padding: 0 20px;
+  z-index: -10;
+  color:#00ff41;
+  filter: blur(15px);
+
+}
+
+.h1:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #68ed89;
+  z-index: -20;
+  opacity: .5;
+  filter: blur(40px);
+
+}

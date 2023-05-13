@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.list {
+  width:500px;
+  height:auto;
+  display:flex ;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-content: center;
+  box-sizing: border-box;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.form{
+  display: flex;
+  flex-flow:column wrap;
+  width: 600px;
+  height: auto;
+  background-color: #21242c;
+  margin: auto;
+  margin-top:100px;
+  border-radius: 1em;
+}
+
+input{
+  width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+h2{ 
+  margin: 20px;
+}
+.div{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+p{
+  margin:5px;
+
+}
+.btnX{
+  margin: auto;
+  margin-top: 10px;
+  width:20px;
+  text-align:center;
+  border: 1px solid #5bd504;
+  background-color: #21242c;
+  color:#5bd504;
+  border-radius: .3em;
+  transition: all .5s;
+}
+
+.btnX:hover,.brnX:active,.btnX:focus{
+    background:#fff;
+  border: 1px solid #fff;
+  color:#21242c;
+  box-shadow: 0 0 10px #00ff41, 0 0 40px #00ff41, 0 0 80px #00ff41;
+  transition-delay:.1s ;
+}
+
+.back{
+  width: 90px;
+  margin:10px;
+  padding: .375rem .75rem;
+  border: 1px solid #5bd504;
+  border-radius: .25rem;
+  color: #5bd504;
+  background-color: #21242c;
+  font-size: 1em;
+  transition: all .5s;
+  
+}
+
+.back:hover,.back:active,.back:focus{
+    background:#fff;
+  border: 1px solid #fff;
+  color:#21242c;
+  box-shadow: 0 0 10px #00ff41, 0 0 40px #00ff41, 0 0 80px #00ff41;
+  transition-delay:.1s 
+
+}
+.submit{
+  border: 1px solid #5bd504;
+  width:180px;
+  height: 30px;
+  margin:20px;
+  font-size:1.2em;
+  color:#5bd504;
+  background-color:#21242c;
+  border-radius: .25em;
+  transition: all .5s;
+}
+.submit:hover,.submit:active,.submit:focus{
+  background:#fff;
+  border: 1px solid #fff;
+  color:#21242c;
+  box-shadow: 0 0 10px #00ff41, 0 0 40px #00ff41, 0 0 80px #00ff41;
+  transition-delay:.1s 
+}
+
+.select{
+  width: 180px;
+  margin:10px;
+  font-size: .85em;
+  text-align: justify;
+  background-color: #2b303b;
+  color:#72d72a;
+  padding: 5px;
+  border: 1px solid #2b303b;
+}
+.title{
+  margin:10px;
+}
+
+.errors{
+  color: red;
+  font-weight: bold;
+  font-size:1.2em;
+}
